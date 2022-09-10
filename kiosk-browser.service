@@ -1,0 +1,12 @@
+[Unit]
+Description=Kiosk Browser Astem
+After=network.target
+
+[Service]
+ExecStart=/home/ima/startKioskBrowser.sh
+Restart=always
+User=ima
+Group=ima
+
+[Install]
+WantedBy=multi-user.target
