@@ -1,0 +1,7 @@
+net-tools \
+htop \
+openssh-server \
+git \
+chromium-browser \
+python-pip3 \
+openssh-server
