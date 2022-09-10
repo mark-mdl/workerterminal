@@ -1,0 +1,12 @@
+[Unit]
+Description=Worker terminal 
+After=kiosk-browser.service
+
+[Service]
+ExecStart=/home/ima/workerterminal/startWorkerTerminal.py
+Restart=always
+User=ima
+Group=ima
+
+[Install]
+WantedBy=multi-user.target
