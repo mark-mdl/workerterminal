@@ -3,8 +3,8 @@ Description=Worker terminal
 After=kiosk-browser.service
 
 [Service]
-ExecStart=/home/ima/workerterminal/startWorkerTerminal.py
-Restart=always
+ExecStart=/home/ima/workerterminal/startWorkerTerminal.sh
+Restart=on-failure
 User=ima
 Group=ima
 

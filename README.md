@@ -2,7 +2,11 @@
 Worker terminal
 
 # Install 
-1. Create python virtual enviroment and install all requirements packages from requirements.txt file
+
+1. Create python virtual enviroment in project directory:
+python3 -m venv workterminal-venv
+
+and install all requirements packages from requirements.txt file
 pip3 install -r requirements.txt
 
 Use pip3 to make sure to use python3 version.

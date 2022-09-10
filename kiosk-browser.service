@@ -3,7 +3,7 @@ Description=Kiosk Browser Astem
 After=network.target
 
 [Service]
-ExecStart=/home/ima/startKioskBrowser.sh
+ExecStart=/home/ima/workerterminal/startKioskBrowser.sh
 Restart=always
 User=ima
 Group=ima
